@@ -1,20 +1,23 @@
-# sqliteDBPractice
+## sqliteDBPractice
 
-Install Golang 
+# Install Golang 
+- https://go.dev/doc/install
 
-clone directory in GOPath
+# Clone directory in GOPath
 
-run commands:
+# Run commands:
 - go mod init 
 - go mod tidy 
 - go build
 
-start server: 
+# Start server: 
 
-go run main.go 
+- go run main.go 
 
-can query database using query parameters 
+# Usage
 
-/payments?date=<1642248000>&status=<failed/success>
+- Query database using query parameters 
 
-without any query parameters returns entire payments table
+- Ex. /payments?date=<1642248000>&status=<failed/success>
+
+- Without any query parameters returns entire payments table
