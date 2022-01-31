@@ -5,8 +5,9 @@ Install Golang
 clone directory in GOPath
 
 run commands:
-go mod init 
-go mod tidy 
+- go mod init 
+- go mod tidy 
+- go build
 
 start server: 
 
